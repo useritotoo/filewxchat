@@ -1,4 +1,4 @@
-name = "fliechat"
+name = "filewxchat"
 main = "worker/index.js"
 compatibility_date = "2025-07-03"
 
