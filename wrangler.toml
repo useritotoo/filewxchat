@@ -11,7 +11,7 @@ binding = "ASSETS"
 [[d1_databases]]
 binding = "DB"
 database_name = "fliechat"
-database_id = "daf7a300-3233-4a95-94c6-c465c2ed499d"
+database_id = "daf7a300-04a6-4a95-94c6-7c37ca22ecc5"
 
 # R2 存储桶绑定
 [[r2_buckets]]
