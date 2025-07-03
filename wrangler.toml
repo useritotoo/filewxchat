@@ -1,6 +1,6 @@
-name = "wxchat"
+name = "fliechat"
 main = "worker/index.js"
-compatibility_date = "2025-06-17"
+compatibility_date = "2025-07-03"
 
 # 静态资源配置 - 使用正确的格式
 [assets]
@@ -10,20 +10,20 @@ binding = "ASSETS"
 # D1 数据库绑定
 [[d1_databases]]
 binding = "DB"
-database_name = "wxchat"
-database_id = "b58dde57-d777-459f-a6b3-ae4de9c16368"
+database_name = "fliechat"
+database_id = "daf7a300-04a6-4a95-94c6-7c37ca22ecc5"
 
 # R2 存储桶绑定
 [[r2_buckets]]
 binding = "R2"
-bucket_name = "wxchat"
+bucket_name = "fliechat"
 
 # 环境变量配置（用于鉴权）
 [vars]
 # 访问密码（明文，直接在Cloudflare Workers控制台配置）
-ACCESS_PASSWORD = "wxchat2024"
+ACCESS_PASSWORD = "1925985335"
 # JWT密钥（用于会话管理）
-JWT_SECRET = "your-super-secret-jwt-key-change-this-in-production"
+JWT_SECRET = "8738ddab-3233-403d-928e-c465c2ed499d"
 # 会话过期时间（小时）
 SESSION_EXPIRE_HOURS = "24"
 # 最大登录尝试次数
